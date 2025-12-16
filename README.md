@@ -1,4 +1,7 @@
-## [Asdb](https://asdb.live) -- A-SOUL Live Clip Database  A-SOUL 非官方直播数据库 
+## [Asdb](https://asoul.niaohan.top/) -- A-SOUL Live Clip Database  A-SOUL 非官方直播数据库 
+
+[源站Asdb](https://asoul.niaohan.top/)
+[备用Asdb](https://gitasoul.niaohan.top/)
 
 #### 简介
 A-Soul 简介
@@ -28,7 +31,7 @@ make-front-end --- 前端的react源码
 ➕ 新增 字幕库直接跳转到上/下一条搜索结果 <br>
 
 #### 更新数据库
-具体请参考[保持数据库最新](https://github.com/peterpei1186861238/A-Soul-Database/tree/main/tools/getAsdb "保持数据库最新")
+具体请参考[保持数据库最新](https://github.com/haibara-jian/A-Soul-Database/blob/auto/tools/getAsdb/README.md"保持数据库最新")
 
 #### 编译前端源码
     编译在Ubuntu20.04LTS以及Windows10下均通过
