@@ -1,13 +1,9 @@
-rm -rf ../docs/*
+rm -rf docs/*
+rm -rf /var/www/web/*
 sleep 1
 NODE_OPTIONS=--openssl-legacy-provider npm run build
 sleep 1
-sed -i 's/preview\.pro\.ant\.design/gitasoul.niaohan.top/g' ../docs/CNAME
-sleep 3
 cd ..
-git add .
+cp -r docs/* /var/www/web/
 sleep 1
-git commit -m "update"
-sleep 1
-git push
-cd make-front-end
+cd make-front-end/

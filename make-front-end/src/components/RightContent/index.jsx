@@ -24,6 +24,9 @@ const GlobalHeaderRight = () => {
       <Menu.Item key="5">
         <a target="_blank" href="https://space.bilibili.com/6175388">灰原键的哔哩哔哩</a>
       </Menu.Item>
+      <Menu.Item key="6">
+        <a target="_blank" href="https://nav.asoul.us.kg/">A-SOUL导航</a>
+      </Menu.Item>
     </Menu>
   );
   return (

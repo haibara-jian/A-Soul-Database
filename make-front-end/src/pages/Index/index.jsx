@@ -11,7 +11,7 @@ const IconFont = createFromIconfontCN({
 const RunOnLocal = config.RunOnLocal;
 let basicHref="";
 if(!RunOnLocal){
-  basicHref="/web/index.html";
+  basicHref="/";
 }
 
 

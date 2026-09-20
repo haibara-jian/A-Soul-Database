@@ -59,11 +59,11 @@
 
 const sourceUrls = 
     [
-    "https://livedb.asoulfan.com",
+    "https://asoul.niaohan.top",
     "https://raw.githubusercontent.com/haibara-jian/A-Soul-Data/main",
     "https://cdn.jsdelivr.net/gh/peterpei1186861238/A-Soul-Database@latest",
     ]
-const urlChoice = 1;
+const urlChoice = 0;
 export default {
     RunOnLocal:urlChoice !== 0,//当urlChoice不为0时，说明工程在本地跑
     sourceUrl:sourceUrls[urlChoice]
